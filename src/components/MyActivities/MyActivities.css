@@ -1,0 +1,111 @@
+.my-activities-dashboard {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f4f6f8; /* Light background for contrast */
+  width: 100vw;
+}
+
+.dashboard-header {
+  background-color: #4e73df; /* Header color */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.user-name {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.dashboard-content {
+  display: flex; /* Flexbox for layout */
+  flex: 1; /* Allow content to grow */
+}
+
+.dashboard-nav {
+  width: 100vw; /* Sidebar width */
+  background-color: #c5cae9; /* Dark background */
+  padding: 15px;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sidebar shadow */
+  position: sticky; /* Keep the sidebar fixed while scrolling */
+  top: 0; /* Stick to the top */
+}
+
+.dashboard-nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.dashboard-nav li {
+  margin: 15px 0; /* Space between nav items */
+}
+
+.dashboard-nav a {
+  color: #f8f9fc; /* Light text color */
+  text-decoration: none;
+  padding: 12px 15px; /* More padding for a better click area */
+  display: block; /* Make the whole area clickable */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transition for background and scaling */
+}
+
+.dashboard-nav a:hover {
+  background-color: #495057; /* Darker background on hover */
+  transform: translateX(5px); /* Slide effect on hover */
+}
+
+.dashboard-nav .active {
+  background-color: #007bff; /* Active link color */
+  font-weight: bold; /* Highlight the active link */
+}
+
+.dashboard-nav a::before {
+  content: ''; /* Add some decorative elements */
+  display: inline-block;
+  width: 10px; /* Width for the icon space */
+}
+
+
+.dashboard-main {
+  flex: 1; /* Main content takes remaining space */
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
+  gap: 20px; /* Space between cards */
+}
+
+.card {
+  background-color: white; /* Card background */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Card shadow */
+  padding: 20px;
+}
+
+.card h2 {
+  color: #4e73df; /* Section heading color */
+}
+
+.course-item, .skill-item {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #d1d3e2;
+  border-radius: 5px;
+  background-color: #f8f9fc; /* Light background for list items */
+}
+
+.dashboard-footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 0.9em;
+  color: #666; /* Footer text color */
+}

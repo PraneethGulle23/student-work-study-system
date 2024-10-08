@@ -1,0 +1,107 @@
+.job-opportunities-page {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.header {
+  background-color: #4e73df; /* Header color */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-name {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.dashboard-nav {
+  width: 100vw; /* Sidebar width */
+  background-color: #c5cae9; /* Dark background */
+  padding: 15px;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sidebar shadow */
+  position: sticky; /* Keep the sidebar fixed while scrolling */
+  top: 0; /* Stick to the top */
+}
+
+.dashboard-nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.dashboard-nav li {
+  margin: 15px 0; /* Space between nav items */
+}
+
+.dashboard-nav a {
+  color: #f8f9fc; /* Light text color */
+  text-decoration: none;
+  padding: 12px 15px; /* More padding for a better click area */
+  display: block; /* Make the whole area clickable */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transition for background and scaling */
+}
+
+.dashboard-nav a:hover {
+  background-color: #495057; /* Darker background on hover */
+  transform: translateX(5px); /* Slide effect on hover */
+}
+
+.dashboard-nav .active {
+  background-color: #007bff; /* Active link color */
+  font-weight: bold; /* Highlight the active link */
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background for main content */
+}
+
+.job-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid layout */
+  gap: 20px; /* Space between cards */
+}
+
+.job-card {
+  background-color: #ffffff; /* White background for job card */
+  border: 2px solid #4e73df; /* Header border color */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.job-card h3 {
+  color: #4e73df; /* Header color */
+}
+
+.apply-button {
+  display: inline-block;
+  background-color: #4B0082; /* Dark purple */
+  color: white; /* White text */
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  text-decoration: none; /* No underline */
+  transition: background-color 0.3s;
+}
+
+.apply-button:hover {
+  background-color: #6A0DAD; /* Lighter purple on hover */
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 0.9em;
+  color: #666; /* Footer text color */
+}

@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+/* src/App.css or your navigation CSS file */
+.home-nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.home-nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.home-nav a {
+  text-decoration: none;
+  color: black; /* Default link color */
+}
+
+.home-nav a.active {
+  font-weight: bold;
+  color: purple; /* Active link color */
+}

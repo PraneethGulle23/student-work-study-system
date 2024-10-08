@@ -1,0 +1,128 @@
+/* Projects.css */
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full viewport height */
+  background-color: #f8f9fa; /* Light background for the main container */
+  color: #343a40; /* Dark text color for contrast */
+  width: 100vw;
+}
+
+.header {
+  background-color: #343a40; /* Dark header background */
+  color: #ffffff; /* White text color */
+  padding: 20px;
+  text-align: center;
+}
+
+.header-title {
+  margin: 0;
+}
+
+.header-name {
+  font-weight: bold;
+}
+
+.nav-bar {
+  background-color: #46a3da; /* Darker background for the navigation */
+  padding: 10px;
+}
+
+.nav-bar ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around; /* Even spacing between nav items */
+}
+
+.nav-bar li {
+  margin: 0 15px; /* Spacing between list items */
+}
+
+.nav-bar a {
+  color: #f8f9fc; /* Light text color */
+  text-decoration: none;
+  padding: 10px 15px; /* Padding for better clickable area */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.nav-bar a:hover {
+  background-color: #007bff; /* Change background on hover */
+}
+
+.nav-bar .active {
+  background-color: #007bff; /* Highlight active link */
+  font-weight: bold; /* Make active link bold */
+}
+
+.main-content {
+  flex: 1; /* Take the remaining space */
+  padding: 20px;
+  overflow-y: auto; /* Allow scrolling if content overflows */
+}
+
+.project-overview, .assessment-section, .organization-projects {
+  margin-bottom: 20px; /* Space between sections */
+  padding: 15px;
+  background-color: #ffffff; /* White background for sections */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.project-card, .assessment-card {
+  background-color: #e9ecef; /* Light grey background for project/assessment cards */
+  padding: 10px;
+  margin: 10px 0; /* Space between cards */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); /* Light shadow for cards */
+}
+
+button {
+  background-color: #007bff; /* Primary button color */
+  color: #ffffff; /* White text */
+  border: none;
+  padding: 10px 15px; /* Padding for buttons */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s; /* Smooth transition for background */
+  margin-right: 10px; /* Space between buttons */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.dialog-overlay {
+  position: fixed; /* Fixed positioning */
+  top: 0;
+  left: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex; /* Centering dialog box */
+  justify-content: center; /* Centering */
+  align-items: center; /* Centering */
+}
+
+.dialog-box {
+  background-color: #ffffff; /* White background for dialog */
+  padding: 20px; /* Padding inside dialog */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow for dialog box */
+  width: 400px; /* Fixed width for the dialog */
+}
+
+.dialog-buttons {
+  display: flex; /* Flexbox for buttons in dialog */
+  justify-content: flex-end; /* Align buttons to the right */
+}
+
+.footer {
+  background-color: #343a40; /* Dark footer background */
+  color: #ffffff; /* White text color */
+  text-align: center;
+  padding: 10px;
+}
+

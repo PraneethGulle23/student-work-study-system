@@ -1,0 +1,29 @@
+.navbar {
+    background-color: #ffffff; /* White background for navbar */
+    padding: 10px 20px; /* Padding for navbar */
+    border-bottom: 2px solid #ccc; /* Bottom border */
+  }
+  
+  .navbar ul {
+    list-style-type: none; /* Remove default list styles */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Flexbox for horizontal layout */
+  }
+  
+  .navbar li {
+    margin-right: 20px; /* Space between items */
+  }
+  
+  .navbar a {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Default link color */
+    padding: 5px 0; /* Space for underline effect */
+  }
+  
+  .navbar .active a, .navbar li.selected a {
+    font-weight: bold; /* Bold text for active link */
+    color: #4CAF50; /* Active link color */
+    border-bottom: 2px solid #4CAF50; /* Underline for active link */
+  }
+  
