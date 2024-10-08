@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/student-work-study-system/static/css/main.f7e7e6a1.css",
+    "main.js": "/student-work-study-system/static/js/main.fe43b846.js",
+    "static/js/453.6d4cb511.chunk.js": "/student-work-study-system/static/js/453.6d4cb511.chunk.js",
+    "index.html": "/student-work-study-system/index.html",
+    "main.f7e7e6a1.css.map": "/student-work-study-system/static/css/main.f7e7e6a1.css.map",
+    "main.fe43b846.js.map": "/student-work-study-system/static/js/main.fe43b846.js.map",
+    "453.6d4cb511.chunk.js.map": "/student-work-study-system/static/js/453.6d4cb511.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7e7e6a1.css",
+    "static/js/main.fe43b846.js"
+  ]
+}
